@@ -1,0 +1,195 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navbar{
+text-align: center;
+
+
+}
+
+.navbar ul{
+  list-style: none;
+
+}
+
+.navbar ul li{
+  display: inline-block;
+  color: white;
+  padding: 30px;
+  padding-top: -20px;
+  
+}
+
+
+.logo-contant{
+background-color: #583672;
+height: 60px;
+}
+
+
+    img{
+        width: 100%;
+    }
+    .login {
+        height: 1000px;
+        width: 100%;
+        background: radial-gradient(#653d84, #332042);
+        position: relative;
+    }
+
+    .login_box {
+        width: 1050px;
+        height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 4px 22px -8px #0004;
+        display: flex;
+        overflow: hidden;
+    }
+
+    
+    .login_box .left{
+        width: 41%;
+        height: 100%;
+        padding: 25px 25px;
+        
+      }
+
+      .login_box .right{
+        width: 59%;
+        height: 100%  
+      }
+
+      .left .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        height: 100%;
+        width: 73%;
+        margin: auto;
+    }
+
+    .left h3{
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .left input {
+        border: none;
+        width: 80%;
+        margin: 15px 0px;
+        border-bottom: 1px solid #4f30677d;
+        padding: 7px 9px;
+        width: 100%;
+        overflow: hidden;
+        background: transparent;
+        font-weight: 600;
+        font-size: 14px;
+      }
+
+      
+
+      .left{
+        background: linear-gradient(-45deg, #dcd7e0, #fff);
+    }
+
+
+    .submit {
+        border: none;
+        padding: 15px 70px;
+        border-radius: 8px;
+        display: block;
+        margin: auto;
+        margin-top: 117px;
+        background: #583672;
+        color: #fff;
+        font-weight: bold;
+        -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+        box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    }
+    
+    .right {
+        background: linear-gradient(212.38deg, rgba(247, 231, 17, 0.7) 0%, rgba(175, 70, 189, 0.71) 100%),url(https://img.freepik.com/free-photo/woman-wearing-blue-denim-jacket-across-plates_413556-76.jpg?w=740&t=st=1703852958~exp=1703853558~hmac=b23b6216a1a8790d5dca8bbedb835dd0a96e71ec53c5ae2f63721f207137dfdc);
+        color: #fff;
+        position: relative;
+        
+    }
+
+    .right .right-text{
+        height: 100%;
+        position: relative;
+        transform: translate(0%, 45%);
+      }
+
+      .right-text h2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      .right-text h5{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+      }
+
+      
+
+      .top_link img {
+        width: 28px;
+        padding-right: 7px;
+        margin-top: -3px;
+    }
+
+    
+
+    .links-social{
+      text-align: center;
+      position: relative;
+      top: 60px;
+    }
+
+
+.links-social a{
+  padding: 20px;
+  font-size: 30px;
+  color: #653d84;
+}
+
+ .no-account{
+  display: inline-block;
+  font-size: 11px;
+  margin: 1rem 5px 1rem 3.4rem;
+  
+
+ }
+
+ .no-account a{
+  color: #583672;
+ }
+
+
+ 
+.forect{
+  font-size: 13px;
+  color: #583672;
+  padding: 5px;
+}
+ 
